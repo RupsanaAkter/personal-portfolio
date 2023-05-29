@@ -1,15 +1,15 @@
 import React, { useContext } from "react";
 import './Service.css'
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
-import { themeContext } from "../../Context";
+import HeartEmoji from "../../../assets/img/heartemoji.png";
+import Glasses from "../../../assets/img/glasses.png";
+import Humble from "../../../assets/img/humble.png";
+// import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Card from "./Card";
 const Service = () => {
   // context
-  const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
+//   const theme = useContext(themeContext);
+//   const darkMode = theme.state.darkMode;
 
   // transition
   const transition = {
@@ -21,7 +21,8 @@ const Service = () => {
         {/* left side */}
         <div className="awesome">
           {/* dark mode */}
-          <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
+          {/* <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span> */}
+          <span>My Awesome</span>
           <span>services</span>
           <spane>
             Lorem ispum is simpley dummy text of printing of printing Lorem
