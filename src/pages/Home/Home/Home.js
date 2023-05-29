@@ -1,10 +1,14 @@
 import React from 'react';
-import Introduice from '../Introduice/Introduice';
+import Introduices from '../Introduices/Introduices';
+
+
+
 
 const Home = () => {
     return (
         <div>
-            <Introduice></Introduice>
+           <Introduices></Introduices>
+            
         </div>
     );
 };
